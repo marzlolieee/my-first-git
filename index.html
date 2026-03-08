@@ -30,13 +30,28 @@
         }
         h1 { color: #e74c3c; margin-top: 0; }
         p { font-size: 1.1rem; }
+.btn {
+    display: inline-block;
+    background-color: #3498db; /* สีฟ้า */
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none; /* เอาเส้นใต้ตัวหนังสือออก */
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background 0.3s; /* ทำให้เวลาเปลี่ยนสีดูสมูท */
+}
+
+.btn:hover {
+    background-color: #2980b9; /* สีจะเข้มขึ้นเมื่อเอาเมาส์วาง */
+}
     </style>
 </head>
 <body>
     <div class="container">
         <img src="my-profile.jpg" alt="My picture">
         <h1>Welcome to my website! 🚀</h1>
-        <p>I'm learning to use Git and GitHub Pages</p>
+        <p>I'm learning to use Git and GitHub Pages</p><a href="https://facebook.com/your-profile" class="btn">ติดตามบน Facebook</a>
     </div>
 </body>
 </html>
